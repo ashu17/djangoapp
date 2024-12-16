@@ -1,5 +1,7 @@
 FROM python:3.9
 
+#checking updates
+
 WORKDIR /app/backend
 
 COPY requirements.txt /app/backend
